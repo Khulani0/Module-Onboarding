@@ -8,20 +8,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
-    <header>
-      <h1>Product Pick</h1>
-    </header>
-    <main>
-      <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
-      </form>
-    </main>
-    <footer>
-      <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
-    </footer>
+ <h1>T-Shirt Order Form</h1>
+<form>
+<label for="name">Name:</label>
+<input id="name" type="text" required>
+
+<br><br>
+
+<label>Email:</label>
+<input type="email" required>
+<br><br>
+
+<label for="colour">Choose a colour:</label>
+<select id="colour" required>
+  <option value="">Select one</option>
+  <option>Red</option>
+  <option>Blue</option>
+  <option>Black</option>
+</select>
+<br><br>
+
+<label for="size">Choose a size:</label>
+<select id="size" required>
+  <option value="">Select one</option>
+  <option>XS</option>
+  <option>S</option>
+  <option>M</option>
+  <option>L</option>
+  <option>XL</option>
+  <option>XXL</option>
+</select>
+<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
   </body>
 </html>
