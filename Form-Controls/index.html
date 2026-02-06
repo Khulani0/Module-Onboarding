@@ -9,14 +9,15 @@
   </head>
   <body>
  <h1>T-Shirt Order Form</h1>
+ <main>  
 <form>
 <label for="name">Name:</label>
-<input id="name" type="text" required>
+<input id="name" name="name" type="text" required minlength="2">
 
 <br><br>
 
-<label>Email:</label>
-<input type="email" required>
+<label for="email">Email:</label>
+<input id="email" name="email" type="email" required>
 <br><br>
 
 <label for="colour">Choose a colour:</label>
@@ -43,6 +44,7 @@
 <button type="submit">Submit</button>
 
 </form>
+</main>
 
   </body>
 </html>
